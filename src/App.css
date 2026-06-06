@@ -89,17 +89,27 @@ nav ul li {
   transition: color 0.3s ease;
 }
 
+a, a:visited, a:hover, a:active{
+  color: white !important;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
 nav ul li a{
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 nav ul li a:visited{
-    color: white;
+  color: white;
 }
 
 nav ul li a:hover{
-   color: #4fc3f7;
+  color: #4fc3f7;
 }
 
 nav ul li:hover {
@@ -356,6 +366,7 @@ section form textarea{
     font-size: 2.2rem;
     font-weight: bold;
     text-align: center;
+    line-height: 1.3;
   }
 
   .hero-content {
